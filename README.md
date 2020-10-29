@@ -35,3 +35,6 @@ The time for each day is 00:00 UTC.
 |RLI| Rate of Lessening or Increase (RLI), gives the difference between Parts of Lunar Motion and the mean daily motion of 254/19 du in Liu Hong’s table and in arc degrees in our data|
 |CRLI| Cummulative Rate of Lessening or Increase, gives the accumulated sum of the RLI |
 
+## Contributors
+Chenhui Hao, Kaijing Ding, Ke Liu and Zishan Cheng
+
