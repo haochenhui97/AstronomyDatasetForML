@@ -17,13 +17,13 @@ We first collected the moon ephemerides data from NASA HORIZONS System. The main
 
 
 ## Output data
+The time for each day is 00:00.
 |Name | Description | 
 |:-:|---|
 |DATE| UTC times for observation YYYY-Mon-Day| 
-|HH:MM| UTC times for observation HH:MM|
-|RA|in hours-minutes-seconds of time, HH MM SS.ff{ffff}|
-|DEC|in hours-minutes-seconds of time, HH MM SS.ff{ffff}|
-|Parts| Parts of Lunar MotionParts of Lunar Motion gives the Moon’s daily motion in (1/19)duin Liu Hong’s table and inarc degreesin our dataset.|
+|RA|in hours-minutes-seconds of time, in arc degree|
+|DEC|in hours-minutes-seconds of time, in arc degree|
+|Parts| Parts of Lunar Motion gives the Moon’s daily motion in (1/19)duin Liu Hong’s table and inarc degreesin our dataset.|
 |dRA| daily RA change |
 |dDEC| daily DEC change|
 |RLI| Rate of Lessening or Increase (RLI)RLI gives the difference between Parts of LunarMotion and the mean daily motion of 254/19duin Liu Hong’s table and inarc degreesinour data|
