@@ -7,9 +7,10 @@ We first collected the moon ephemerides data from NASA HORIZONS System. The main
 ## Input data
 |Name | Description |
 |:-:|---|
-|[The Cancer Genome Atlas](https://cancergenome.nih.gov/)| Variety of Cancer Data  | 
-|[NIH GDC](https://gdc-portal.nci.nih.gov/)| Cancer, many types of genomic data  |   
-|[UK Biobank](http://www.ukbiobank.ac.uk/about-biobank-uk/) |   |   
+|TIME| UTC times for observation, YYYY-Mon-DD HH:MM e.g.2020-Oct-20 00:00  | 
+|R.A.| Astrometric right ascension of the target center with respect to the observing site (coordinate origin) in the reference frame of the planetary ephemeris (ICRF).RA  in hours-minutes-seconds of time, HH MM SS.ff{ffff}|   
+|DEC| Declination of the target center. DEC in degrees-minutes-seconds of arc,  sDD MN SC.f{ffff}|
+
 
 ## Output data
 |Name | Description | 
