@@ -10,10 +10,22 @@ We first collected the moon ephemerides data from NASA HORIZONS System. The main
 |TIME| UTC times for observation, YYYY-Mon-DD HH:MM e.g.2020-Oct-20 00:00  | 
 |R.A.| Astrometric right ascension of the target center with respect to the observing site (coordinate origin) in the reference frame of the planetary ephemeris (ICRF).RA  in hours-minutes-seconds of time, HH MM SS.ff{ffff}|   
 |DEC| Declination of the target center. DEC in degrees-minutes-seconds of arc,  sDD MN SC.f{ffff}|
+|dRA*cosD/dt|The angular rate of change in aparent RA of the target|
+|d(DEC)/dt|The angular rate of change in aparent DEC of the target|
+|APmag|Moon's approximate apparent visual magnitude|
+|S-brt|Moon's approximate surface brightness|
 
 
 ## Output data
 |Name | Description | 
 |:-:|---|
-|[TargetFinder](https://github.com/shwhalen/targetfinder)|~100,000 DNA-DNA interaction pairs | 
+|DATE| UTC times for observation YYYY-Mon-Day| 
+|HH:MM| UTC times for observation HH:MM|
+|RA|in hours-minutes-seconds of time, HH MM SS.ff{ffff}|
+|DEC|in hours-minutes-seconds of time, HH MM SS.ff{ffff}|
+|Parts| Parts of Lunar MotionParts of Lunar Motion gives the Moon’s daily motion in (1/19)duin Liu Hong’s table and inarc degreesin our dataset.|
+|dRA| daily RA change |
+|dDEC| daily DEC change|
+|RLI| Rate of Lessening or Increase (RLI)RLI gives the difference between Parts of LunarMotion and the mean daily motion of 254/19duin Liu Hong’s table and inarc degreesinour data|
+|CRLI| Cummulative Rate of Lessening or Increase |
 
