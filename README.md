@@ -2,6 +2,8 @@ This is the early project of cs 289 in Fall 2020.
 
 In this dataset, we used some modern datasets from NASA and processed them into the format used by Liu Hong. Our dataset is catered for further exploring the ideological source of Liu Hong's study, and constructing a mathematical prediction model with modern Machine Learning techniques.
 
+We first collected the moon ephemerides data from NASA HORIZONS System. The main entries of concern include date, right ascension, and declination of the Moon with respect to the observing site in the International Celestial Reference Frame. The dates we used are from 2019-Oct-21 to 2020-Oct-20. In order to cover cities of different latitudes and longitudes, we choose as the observing sites Adelaide, Australia ($138\degree35'00.0''E$, $34\degree55'00.0''S$); Beijing, China ($116\degree22'59.9''E$, $39\degree54'59.8''N$); Addis Ababa, Ethiopia ($38\degree43'59.9''E$, $9\degree00'00.0''N$); London, England ( $0\degree07'00.1''W$, $51\degree30'00.0''N$); Brasilia, Brazil ($47\degree55'00.1''W$, $15\degree52'00.1''S$); and Berkeley, CA ($122\degree16'15.6''W$, $37\degree52'09.8''N$).
+
 ## Genotyping
 |Name | Description | Comments |
 |:-:|---|---|
