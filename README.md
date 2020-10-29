@@ -1,5 +1,6 @@
 This is the early project of cs 289 in Fall 2020. 
 
+In this dataset, we used some modern datasets from NASA and processed them into the format used by Liu Hong. Our dataset is catered for further exploring the ideological source of Liu Hong's study, and constructing a mathematical prediction model with modern Machine Learning techniques.
 
 ## Genotyping
 |Name | Description | Comments |
