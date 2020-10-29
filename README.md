@@ -8,7 +8,7 @@ We first collected the moon ephemerides data from NASA HORIZONS System. The main
 - Addis Ababa, Ethiopia (38°43'59.9''E, 9°00'00.0''N); 
 - London, England ( 0°07'00.1''W, 51°30'00.0''N); 
 - Brasilia, Brazil (47°55'00.1''W, 15°52'00.1''S); and 
-- Berkeley, CA (122°16'15.6''W, $37°52'09.8''N).
+- Berkeley, CA (122°16'15.6''W, 37°52'09.8''N).
 
 ## Input data
 |Name | Description |
