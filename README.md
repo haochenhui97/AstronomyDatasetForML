@@ -23,9 +23,9 @@ The time for each day is 00:00.
 |DATE| UTC times for observation YYYY-Mon-Day| 
 |RA|in hours-minutes-seconds of time, in arc degree|
 |DEC|in hours-minutes-seconds of time, in arc degree|
-|Parts| Parts of Lunar Motion gives the Moon’s daily motion in (1/19)duin Liu Hong’s table and inarc degreesin our dataset.|
+|Parts| Parts of Lunar Motion gives the Moon’s daily motion in (1/19) du in Liu Hong’s table and in arc degrees in our dataset.|
 |dRA| daily RA change |
 |dDEC| daily DEC change|
-|RLI| Rate of Lessening or Increase (RLI)RLI gives the difference between Parts of LunarMotion and the mean daily motion of 254/19duin Liu Hong’s table and inarc degreesinour data|
+|RLI| Rate of Lessening or Increase (RLI). RLI gives the difference between Parts of LunarMotion and the mean daily motion of 254/19duin Liu Hong’s table and inarc degreesinour data|
 |CRLI| Cummulative Rate of Lessening or Increase |
 
