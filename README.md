@@ -38,11 +38,11 @@ The time for each day is 00:00 UTC.
 ## 11/6 Update
 We modified the <code>generate_csv.py</code> file from [Team JNA](https://github.com/NaveenGop/astro-data) to make the data generation process more automatic. By procedurally sending an email request to the Horizons system,it allows easy customizability with regards to observer location and time frame. Users may change the following parameters:
 
-  username = "sample@gmail.com"
-  password = ''  # can also hardcode the pwd
-  site_coord = "'116.383300,39.9166000,0.0000000'" # Set observation site, e.g. Beijing's coord is used here
-  start_time = "'2019-10-21'"
-  stop_time = "'2020-10-20'"
+    username = "sample@gmail.com"
+    password = ''  # can also hardcode the pwd
+    site_coord = "'116.383300,39.9166000,0.0000000'" # Set observation site, e.g. Beijing's coord is used here
+    start_time = "'2019-10-21'"
+    stop_time = "'2020-10-20'"
 
 Note: The <code>site_coord</code> need to be the coordinate of an observatory that is in the Horizons database, e.g. the six cities we listed above. Users may want to refer to the [website](https://ssd.jpl.nasa.gov/horizons.cgi?s_loc=1#top) to see the available site candidates.
 
