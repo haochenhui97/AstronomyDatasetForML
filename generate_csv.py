@@ -5,7 +5,7 @@ from time import sleep
 
 ### USER PARAMETERS ###
 jpl_email = "horizons@ssd.jpl.nasa.gov"
-username = "sample_address@email.com"
+username = "sample_address@email"
 password = 'xxxx'  # can also hardcode the pwd
 
 bodies = "'301'"
@@ -107,7 +107,7 @@ for num in data[0].split():
         text = text[:-1]
     text = [text[0]] + text[3:-2]
 
-    with open(f'{f_name}.csv', 'w') as f:
+    with open(f'{f_name, site_coord}.csv', 'w') as f:
         for x in text:
             f.write(x + '\n')
 server.close()
