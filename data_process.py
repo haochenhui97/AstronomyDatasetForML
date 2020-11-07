@@ -17,7 +17,8 @@ import matplotlib.pyplot as plt
 
 
 # read downloaded data from csv
-data = pd.read_csv('moon.csv', 
+fname = sys.argv[1]
+data = pd.read_csv(fname,
     usecols=[' Date__(UT)__HR:MN', ' R.A._(ICRF)', ' DEC_(ICRF)'])
 
 data.columns = ['YYYY-Mon-Day', 'RA', 'DEC']
