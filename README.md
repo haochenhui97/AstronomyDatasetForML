@@ -59,6 +59,7 @@ The former <code>Data Process.ipynb</code> was renamed as <code>data_visualizati
 
 ### Example of Usage
  <code>python3 generate_csv.py</code> 
+ 
  <code>python3 data_process.py Beijing.csv</code> 
   
 ## Contributors
