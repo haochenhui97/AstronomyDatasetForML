@@ -91,6 +91,5 @@ def data_process(data):
     return data
 
 aa = data_process(data)
-aa.head()
 aa.to_csv (f'data_{fname}.csv',  index = False, header=True)
 
