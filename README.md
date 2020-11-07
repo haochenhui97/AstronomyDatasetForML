@@ -61,7 +61,7 @@ Get raw data from Horizon:
  
  <code>python3 data_process.py Beijing.csv</code> 
  
-The output file is named as data_Beijing.csv.
+The output file should be named as data_Beijing.csv.
 
 ## Contributors
 Chenhui Hao, Kaijing Ding, Ke Liu and Zishan Cheng
