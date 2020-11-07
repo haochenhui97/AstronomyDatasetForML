@@ -51,17 +51,16 @@ The output is the daily observation of lunar movements. It contains 3 columns: D
 
 The file <code>data_process.py</code> is created to standardize the data processing procedure. It takes a filename as input (which should be the output from <code>generate_csv.py</code>) and generates the processed dataset.
 
-Example
- <code>python3 generate_csv.py</code> 
- <code>python3 data_process.py Beijing.csv</code> 
-
 The former <code>Data Process.ipynb</code> was renamed as <code>data_visualization.ipynb</code> since its function is only left with visualizing the datasets we generated before.
 
 ### Example of Usage
+Get raw data from Horizon: 
+(don't forget to rename output file name)
  <code>python3 generate_csv.py</code> 
  
  <code>python3 data_process.py Beijing.csv</code> 
-  
+The output file is named as data_Beijing.csv.
+
 ## Contributors
 Chenhui Hao, Kaijing Ding, Ke Liu and Zishan Cheng
 
