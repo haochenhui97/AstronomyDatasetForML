@@ -92,5 +92,5 @@ def data_process(data):
 
 aa = data_process(data)
 aa.head()
-aa.to_csv (r'data_moon.csv',  index = False, header=True)
+aa.to_csv (f'data_{fname}.csv',  index = False, header=True)
 
