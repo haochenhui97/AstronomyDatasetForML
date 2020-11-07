@@ -57,10 +57,9 @@ Example
 
 The former <code>Data Process.ipynb</code> was renamed as <code>data_visualization.ipynb</code> since its function is only left with visualizing the datasets we generated before.
 
-# Example
+### Example of Usage
  <code>python3 generate_csv.py</code> 
- 
- <code>python3 data_process.py </code> 
+ <code>python3 data_process.py Beijing.csv</code> 
   
 ## Contributors
 Chenhui Hao, Kaijing Ding, Ke Liu and Zishan Cheng
