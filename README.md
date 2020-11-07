@@ -56,9 +56,11 @@ The former <code>Data Process.ipynb</code> was renamed as <code>data_visualizati
 ### Example of Usage
 Get raw data from Horizon: 
 (don't forget to rename output file name)
+
  <code>python3 generate_csv.py</code> 
  
  <code>python3 data_process.py Beijing.csv</code> 
+ 
 The output file is named as data_Beijing.csv.
 
 ## Contributors
