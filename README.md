@@ -36,7 +36,7 @@ The time for each day is 00:00 UTC.
 |CRLI| Cummulative Rate of Lessening or Increase, gives the accumulated sum of the RLI |
 
 ## 11/6 Update
-We modified the <code>generate_csv.py</code> file from [Team JNA](https://github.com/NaveenGop/astro-data) to make the data generation process more automatic. By procedurally sending an email request to the Horizons system, it allows easy customizability with regards to observer location and time frame. Users may change the following parameters:
+We modified <code>generate_csv.py</code> from [Team JNA](https://github.com/NaveenGop/astro-data) to make the data generation process more automatic. By procedurally sending an email request to the Horizons system, it allows easy customizability with regards to observer location and time frame. Users may change the following parameters:
 
     username = "sample@gmail.com"
     password = ''  # can also hardcode the pwd
@@ -46,7 +46,7 @@ We modified the <code>generate_csv.py</code> file from [Team JNA](https://github
 
 Note: The <code>site_coord</code> need to be the coordinate of an observatory that is in the Horizons database, e.g. the six cities we listed above. Users may want to refer to the [website](https://ssd.jpl.nasa.gov/horizons.cgi?s_loc=1#top) to see the available site candidates.
 
-We also created <code>data_process.py</code> to standardize the data processing procedure. It takes the output from <code>generate_csv.py</code> and output the processed dataset <code>moon.csv</code>.
+<code>data_process.py</code> is created to standardize the data processing procedure. It takes a filename as input (which should be the output from <code>generate_csv.py</code>) and generates the processed dataset.
 
 The former <code>Data Process.ipynb</code> was renamed as <code>data_visualization.ipynb</code> since its function is only left with visualizing the datasets we generated before.
   
