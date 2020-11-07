@@ -7,11 +7,12 @@ from time import sleep
 jpl_email = "horizons@ssd.jpl.nasa.gov"
 username = "sample_address@email"
 password = 'xxxx'  # can also hardcode the pwd
-
-bodies = "'301'"
 site_coord = "'116.383300,39.9166000, 0.0'" 
 start_time = "'2019-10-21'"
 stop_time = "'2020-10-20'"
+output_name = 'filename'
+
+bodies = "'301'"
 step_size = "'1 d'"
 ### USER PARAMETERS ###
 
@@ -107,7 +108,7 @@ for num in data[0].split():
         text = text[:-1]
     text = [text[0]] + text[3:-2]
 
-    with open(f'{f_name, site_coord}.csv', 'w') as f:
+    with open(f'{output_name}.csv', 'w') as f:
         for x in text:
             f.write(x + '\n')
 server.close()
