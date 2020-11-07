@@ -36,7 +36,7 @@ The time for each day is 00:00 UTC.
 |CRLI| Cummulative Rate of Lessening or Increase, gives the accumulated sum of the RLI |
 
 ## 11/6 Update
-We modified the <code>generate_csv.py</code> file from [Team JNA](https://github.com/NaveenGop/astro-data) to make the data generation process more automatic. By procedurally sending an email request to the Horizons system,it allows easy customizability with regards to observer location and time frame. Users may change the following parameters:
+We modified the <code>generate_csv.py</code> file from [Team JNA](https://github.com/NaveenGop/astro-data) to make the data generation process more automatic. By procedurally sending an email request to the Horizons system, it allows easy customizability with regards to observer location and time frame. Users may change the following parameters:
 
     username = "sample@gmail.com"
     password = ''  # can also hardcode the pwd
