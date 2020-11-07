@@ -44,9 +44,9 @@ We modified <code>generate_csv.py</code> from [Team JNA](https://github.com/Nave
     start_time = "'2019-10-21'"
     stop_time = "'2020-10-20'"
 
-Note: The <code>site_coord</code> need to be the coordinate of an observatory that is in the Horizons database, e.g. the six cities we listed above. Users may want to refer to the [website](https://ssd.jpl.nasa.gov/horizons.cgi?s_loc=1#top) to see the available site candidates.
+Note: <code>site_coord</code> needs to be the coordinate of an observatory that is in the Horizons database, e.g. the six cities we listed above. Users may want to refer to the [website](https://ssd.jpl.nasa.gov/horizons.cgi?s_loc=1#top) to see the available site candidates.
 
-<code>data_process.py</code> is created to standardize the data processing procedure. It takes a filename as input (which should be the output from <code>generate_csv.py</code>) and generates the processed dataset.
+The file <code>data_process.py</code> is created to standardize the data processing procedure. It takes a filename as input (which should be the output from <code>generate_csv.py</code>) and generates the processed dataset.
 
 The former <code>Data Process.ipynb</code> was renamed as <code>data_visualization.ipynb</code> since its function is only left with visualizing the datasets we generated before.
   
