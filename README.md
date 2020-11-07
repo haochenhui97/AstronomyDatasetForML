@@ -43,12 +43,23 @@ We modified <code>generate_csv.py</code> from [Team JNA](https://github.com/Nave
     site_coord = "'116.383300,39.9166000,0.0000000'" # Set observation site, e.g. Beijing's coord is used here
     start_time = "'2019-10-21'"
     stop_time = "'2020-10-20'"
+    output_name = 'Beijing' 
 
 Note: <code>site_coord</code> needs to be the coordinate of an observatory that is in the Horizons database, e.g. the six cities we listed above. Users may want to refer to the [website](https://ssd.jpl.nasa.gov/horizons.cgi?s_loc=1#top) to see the available site candidates.
 
+The output is the daily observation of lunar movements. It contains 3 columns: Date and time in UTC, astrometric RA and DEC.
+
 The file <code>data_process.py</code> is created to standardize the data processing procedure. It takes a filename as input (which should be the output from <code>generate_csv.py</code>) and generates the processed dataset.
 
+Example
+ <code>python3 generate_csv.py</code> 
+ <code>python3 data_process.py Beijing.csv</code> 
+
 The former <code>Data Process.ipynb</code> was renamed as <code>data_visualization.ipynb</code> since its function is only left with visualizing the datasets we generated before.
+
+Example
+ <code>python3 generate_csv.py</code> 
+ <code>data_process.py </code> 
   
 ## Contributors
 Chenhui Hao, Kaijing Ding, Ke Liu and Zishan Cheng
